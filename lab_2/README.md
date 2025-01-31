@@ -3,7 +3,6 @@
 **Sierra Layous**
 
 ```
-
 #Part 1:
 #multiply values in list
 
@@ -41,5 +40,4 @@ for i in part3:
         result3 = result3 + i
 
 print('The result of Part 3 is: ',result3)
-
 ```
