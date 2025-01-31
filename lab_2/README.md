@@ -40,4 +40,8 @@ for i in part3:
         result3 = result3 + i
 
 print('The result of Part 3 is: ',result3)
+
+#Prints The result of Part 1 is:  302231454903657293676544
+#Prints The result of Part 2 is:  719788176
+#Prints The result of Part 3 is:  458
 ```
