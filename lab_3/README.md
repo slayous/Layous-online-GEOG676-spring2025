@@ -49,4 +49,5 @@ for line in lines:
         pass
 ```
 
+
 ![alt text](SLayous_GEOG676_Lab3.png)
