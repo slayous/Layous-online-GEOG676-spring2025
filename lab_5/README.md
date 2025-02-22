@@ -2,6 +2,8 @@
 
 **Sierra Layous**
 
+NOTE: I designed the tool so you type in the name of the output geodatabase, but you don't need to include ".gdb".
+
 ```
 #turning lab 4 into a toolbox
 

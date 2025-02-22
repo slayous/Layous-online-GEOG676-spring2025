@@ -29,7 +29,7 @@ class Tool(object):
         direction="Input"
          )
         param1 = arcpy.Parameter(
-        displayName="GDB Name",
+        displayName="GDB Name (exclude .gdb)",
         name="GDBName",
         datatype="GPString",
         parameterType="Required",
@@ -90,7 +90,6 @@ class Tool(object):
         #set up the workspace and geodatabase
         folder_path = parameters[0].valueAsText
         gdb_name = parameters[1].valueAsText
-        #added + '.gdb' to get ArcGIS to recognize the folder as a geodatabase
         gdb_path = folder_path + '\\' + gdb_name + '.gdb'
         arcpy.CreateFileGDB_management(folder_path, gdb_name)
 
