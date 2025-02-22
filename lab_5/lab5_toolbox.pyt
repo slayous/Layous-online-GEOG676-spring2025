@@ -1,8 +1,3 @@
-# Lab 5
-
-**Sierra Layous**
-
-```
 #turning lab 4 into a toolbox
 
 import arcpy
@@ -133,6 +128,3 @@ class Tool(object):
         arcpy.TableToTable_conversion(gdb_path + '\Garage_Building_Intersection.dbf', folder_path, 'nearbyBuildings_' + str(buffer_distance) + 'm.csv')
 
         return None
-```
-
-![alt text](SLayous_GEOG676_Lab5.png)
