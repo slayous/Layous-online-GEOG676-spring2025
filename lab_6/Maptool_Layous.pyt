@@ -1,8 +1,3 @@
-# Lab 6
-
-**Sierra Layous**
-
-```
 import arcpy
 
 class Toolbox:
@@ -160,7 +155,3 @@ class GraduatedColorsRenderer:
         """This method takes place after outputs are processed and
         added to the display."""
         return
-```
-
-
-![alt text](Lab6_screenshot.png)
