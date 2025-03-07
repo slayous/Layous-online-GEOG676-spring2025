@@ -1,8 +1,3 @@
-# Lab 7
-
-**Sierra Layous**
-
-```
 import arcpy
 
 #assign bands
@@ -25,11 +20,3 @@ output_measurement = "DEGREE"
 z_factor = 1
 arcpy.ddd.Slope(source + r"\DEM.tif",source + r"\output_Slope.tif",output_measurement, z_factor)
 print("Success!")
-```
-
-![alt text](composite_raster.png)
-
-![alt text](hillshade_raster.png)
-
-![alt text](slope_raster.png)
-
