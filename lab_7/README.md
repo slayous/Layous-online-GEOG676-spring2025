@@ -27,9 +27,8 @@ arcpy.ddd.Slope(source + r"\DEM.tif",source + r"\output_Slope.tif",output_measur
 print("Success!")
 ```
 
-![alt text](composite_raster.png)
+![alt text](composite_raster01.png)
 
-![alt text](hillshade_raster.png)
+![alt text](hillshade_raster01.png)
 
-![alt text](slope_raster.png)
-
+![alt text](slope_raster01.png)
